@@ -1,0 +1,41 @@
+.intro-section{
+    color:white;
+    background-color: #2F3A82;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "text photo";
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+
+.intro-text{
+    grid-area: text;
+    margin: auto 0;
+    padding-left: 10vh;
+}
+
+#heya{
+    font-size: 2vh;
+    padding: 0%;
+    margin: 0;
+}
+
+#my-name{
+    font-size: 10vh;
+    padding: 0%;
+    margin: 0;
+}
+
+
+#intro-photo{
+    grid-area: photo;
+    object-fit: contain;
+    width: 75%;
+    height: 75%;
+    margin: auto 0;
+    border: 5px solid #2F3A82;
+    border-radius: 5px;
+}
+

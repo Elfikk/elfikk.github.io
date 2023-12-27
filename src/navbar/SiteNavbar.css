@@ -1,0 +1,21 @@
+.navbar{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* z-index lifts the element above the rest */
+    /* z-index: 10; */
+    /* position: fixed; */
+    width: 100%;
+    background-color: #171838;
+}
+
+.navbar a{
+    padding: 10px 16px;
+    text-decoration: none;
+    color:white;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color:#171838;
+}

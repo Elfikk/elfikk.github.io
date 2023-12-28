@@ -1,0 +1,47 @@
+#about{
+    background-color: #2F3A82;
+    margin: 0 auto;
+    padding: 0% 10vw;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-text{
+    color:white;
+    text-align: left;
+}
+
+#about-header{
+    text-align: center;
+    color:white;
+}
+
+.tech-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+li::marker{
+    content: "→ ";
+    font-size: 1.2em;
+}
+
+li{
+    margin: 3% 0;
+}
+
+.about-photo-border{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+#about-photo{
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #171838;
+    border-radius: calc(1.5vh + 1.5vw);
+}

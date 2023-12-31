@@ -23,11 +23,9 @@ function About() {
     const listItems1 = listItems.slice(0, tech.length/2);
     const listItems2 = listItems.slice(tech.length/2);
 
-
     return (
         <section id = "about">
             <h1 id = "about-header">About Me</h1>
-            
             <div class = "about-grid">
                 <div class = "about-text">
                     <p>Heya, I'm Jarek Ciba, a fourth year Imperial Physics student 

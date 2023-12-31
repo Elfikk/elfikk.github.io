@@ -1,0 +1,14 @@
+#projects{
+    background-color: #2F3A82;   
+    color: white;
+    text-align: left;
+    padding: 0% 10vw;
+}
+
+#project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1vh;
+    /* padding: 0 10vw; */
+}
+

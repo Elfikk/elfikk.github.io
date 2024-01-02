@@ -1,11 +1,22 @@
 import ProjectSummary from "./ProjectSummary";
 import "./Projects.css";
+import {useState} from "react";
 
 function Projects() {
 
     // Map format - ID, ProjectName, Short, Long, Tech, Date, ImageDir
     // Short - Short description that must fit in a project summary container.
     // Long - Long form description of the project, fits in project showcase.
+
+    const [opacityGrid, setGridOpacity] = useState(1);
+
+    function expandProject(e) {
+        const projID = e.target.id;
+        console.log("CLICK CLACK MOTHAFUCKA");
+
+        setGridOpacity(0);
+    }
+
     var projectDict = new Map();
 
     const projectOne = {"projectName": "WorldDomination",
@@ -24,8 +35,8 @@ function Projects() {
         <section id = "projects">
             <h1>Projects</h1>
             <p>Mostly personal, though I've highlighted a few academic ones.</p>
-            <div id = "project-grid">
-                <ProjectSummary projDets = {projectOne}/>
+            <div id = "project-grid" style={{opacity: opacityGrid}}>
+                <ProjectSummary projDets = {projectOne} onClick = {expandProject}/>
                 <ProjectSummary projDets = {projectOne}/>
                 <ProjectSummary projDets = {projectOne}/>
                 <ProjectSummary projDets = {projectOne}/>

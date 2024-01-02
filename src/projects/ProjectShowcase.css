@@ -1,0 +1,10 @@
+.project-holder{
+    text-align: left;
+    color: white;
+    /* width: 50%; */
+    margin: auto;
+    border: 5px solid white;
+    border-radius: calc(1vh + 1vw);
+    padding: 0.5vh 0.5vw;
+    z-index: 1;
+}

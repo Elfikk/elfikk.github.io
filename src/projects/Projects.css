@@ -9,6 +9,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 1vh;
-    /* padding: 0 10vw; */
+    z-index: -1;
 }
 

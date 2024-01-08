@@ -56,9 +56,8 @@ function About() {
                         extensive stock of lighting, video and sound equipment.
                         I personally mostly work in lighting, often overseeing rig
                         design, lighting desk programming and light operation during
-                        events. I've had quite the meteoric rise, going from no 
-                        experience by the end of my second year, to now being the
-                        lighting director of the society!
+                        events. I'm the current Lighting Director of the society so
+                        I'm quite often found tinkering in backstage!
                     </p>
                 </div>
                 <div class = "about-photo-border">

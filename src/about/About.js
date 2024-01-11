@@ -26,8 +26,8 @@ function About() {
     return (
         <section id = "about">
             <h1 id = "about-header">About Me</h1>
-            <div class = "about-grid">
-                <div class = "about-text">
+            <div className = "about-grid">
+                <div className = "about-text">
                     <p>Heya, I'm Jarek Ciba, a fourth year Imperial Physics student 
                         - with a couple Dean's List awards under my belt.
                         I love to learn, whether by myself or with the help of others. 
@@ -60,7 +60,7 @@ function About() {
                         I'm quite often found tinkering in backstage!
                     </p>
                 </div>
-                <div class = "about-photo-border">
+                <div className = "about-photo-border">
                     <img src={aboutPhoto} alt = "It's a me, Jarek!" id = "about-photo"></img>       
                 </div>
             </div>

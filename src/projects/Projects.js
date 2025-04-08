@@ -1,3 +1,4 @@
+import {allProjs} from "./ProjectsBodge";
 import ProjectSummary from "./ProjectSummary";
 import ProjectShowcase from "./ProjectShowcase";
 import "./Projects.css";
@@ -14,6 +15,8 @@ function Projects() {
         console.log("CLICK CLACK MOTHAFUCKA " + projID);
         console.log(e.target);
 
+        // I'd like a better transition; the clicker project should stay fully
+        // visible, whilst the grid fades out and simultaneously the box gets larger.
         setGridOpacity(0);
     }
 
@@ -21,24 +24,7 @@ function Projects() {
         setGridOpacity(1);
     }
 
-    // Map format - ID, ProjectName, Short, Long, Tech, Date, ImageDir
-    // Short - Short description that must fit in a project summary container.
-    // Long - Long form description of the project, fits in project showcase.
-    var projectDict = [];
-
-    const projectOne = {"projectName": "World Domination",
-                        "short": "Recreation of a small self-playing videogame.",
-                        "long": "Recreation of a small videogame upkept by a friend. The game starts off with a grid of players. Each turn, a tile is picked and its owner attacks one of its neighbours, with their chance of success being proportional to the relative areas the neighbours occupy. It's a simple game, and can be quite satisfying to watch, as one players engulfs everyone else. I used this project to refresh on the basic web stack, having not used it in years, before moving on to working on this website. A possible expansion would be to include other map types - the original I based this on divided the entire Earth into small components and let them fight out. This is a neat proof of concept version instead!",
-                        "tech": "HTML, CSS, JS",
-                        "date": "12/2023",
-                        "imageDir": "/WorldDomSC.PNG"
-                    };
-
-    for (let i = 0; i < 12; i++) {
-        projectDict.push(projectOne);
-    }
-
-    const gridComponents = projectDict.map((project, index) =>
+    const gridComponents = allProjs.map((project, index) =>
         <ProjectSummary key = {index} projID={index} projDets={project} clickMethod={expandProject}/>
     )
 
@@ -53,7 +39,7 @@ function Projects() {
             {opacityGrid ? (
                 gridMode
             ) : (
-                 <ProjectShowcase projDets={projectDict[projID]} clickMethod={backToGrid}/>
+                 <ProjectShowcase projDets={allProjs[projID]} clickMethod={backToGrid}/>
             )}
 
         </section>

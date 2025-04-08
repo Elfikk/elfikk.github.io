@@ -7,16 +7,18 @@ import {useState} from "react";
 
 function Intro() {
 
-    const desc = ["🪐 Year 4 MSci Physics Student @ ICL",
-                  "💻 Hobbyist Coder and Aspiring Developer",
-                  "💡 Current ICU DramSoc Lighting Director",
-                  "🍵 Current ICU TeaSoc Chair",
+    const desc = ["🪐 MSci Theoritical Physics Graduate @ ICL",
+                  "💻 Hobbyist Coder and Developer @ Carallon",
+                  "💡 Former ICU DramSoc Lighting Director",
+                  "🍵 Former ICU TeaSoc Chair",
                   "☕ General Caffeine Enjoyer"];
 
     const [index, setIndex] = useState(0);
     const maxCount = desc.length;
 
     function incrementIndex() {
+        // I would like a nicer transition here, with a row below moving up
+        // with a fade out between those two.
         setIndex((index + 1) % maxCount);
     }
 
@@ -34,7 +36,7 @@ function Intro() {
                     <span id = "my-name">Jarek</span>
                     <span id = "my-name-colon">,</span>
                 </div>
-                
+
                 <h3 id = "a-role">{desc[index]}</h3>
 
                 <span className = "intro-links">
@@ -53,7 +55,7 @@ function Intro() {
             <div id = "intro-photo-border">
                 <img src={introPhoto} alt = "It's a me, Jarek!" id = "intro-photo"></img>
             </div>
-                
+
         </div>
     );
 }

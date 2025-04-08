@@ -1,5 +1,4 @@
 import "./ProjectShowcase.css";
-import ExampleIMG from "./projImgs/WorldDomSC.PNG";
 
 function ProjectShowcase({projDets, clickMethod}) {
 
@@ -13,8 +12,8 @@ function ProjectShowcase({projDets, clickMethod}) {
             {/* How does one dynamically link images passed as props */}
             {/* Its faffy */}
             <div className="project-photo-holder">
-                <img src={ExampleIMG} alt = "Is a Project" id = "project-photo"></img>  
-            </div>     
+                <img src={projDets.imageDir} alt = "Is a Project" id = "project-photo"></img>
+            </div>
         </div>
     );
 }

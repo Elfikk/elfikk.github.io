@@ -28,14 +28,15 @@ function About() {
             <h1 id = "about-header">About Me</h1>
             <div className = "about-grid">
                 <div className = "about-text">
-                    <p>Heya, I'm Jarek Ciba, a fourth year Imperial Physics student 
+                    {/* This needs updating lol */}
+                    <p>Heya, I'm Jarek Ciba, a fourth year Imperial Physics student
                         - with a couple Dean's List awards under my belt.
-                        I love to learn, whether by myself or with the help of others. 
-                        I don't hesitate to ask questions, as I'd rather look stupid 
+                        I love to learn, whether by myself or with the help of others.
+                        I don't hesitate to ask questions, as I'd rather look stupid
                         for 5 minutes than being stupid for the rest of my life.</p>
-                    <p>I've been coding since secondary school, predominantly in Python 3. 
-                    I find that whenever I need to pick up a different language, it's 
-                    not much trouble - ultimately, any app's logic is quite similar 
+                    <p>I've been coding since secondary school, predominantly in Python 3.
+                    I find that whenever I need to pick up a different language, it's
+                    not much trouble - ultimately, any app's logic is quite similar
                     no matter the language, so it's just about learning the basics
                     of syntax and getting used to some of the language's quirks...</p>
                     <p>I've tinkered with...</p>
@@ -51,7 +52,7 @@ function About() {
                         At Imperial I have gotten heavily involved in working
                         backstage on audiovisual events through DramSoc. We not
                         only put on a few theatre plays a year, but provide most of
-                        the student societies with audiovisual support when required - 
+                        the student societies with audiovisual support when required -
                         as quite uniquely for a student society, we own our own
                         extensive stock of lighting, video and sound equipment.
                         I personally mostly work in lighting, often overseeing rig
@@ -61,7 +62,7 @@ function About() {
                     </p>
                 </div>
                 <div className = "about-photo-border">
-                    <img src={aboutPhoto} alt = "It's a me, Jarek!" id = "about-photo"></img>       
+                    <img src={aboutPhoto} alt = "It's a me, Jarek!" id = "about-photo"></img>
                 </div>
             </div>
 

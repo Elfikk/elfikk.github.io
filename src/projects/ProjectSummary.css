@@ -1,10 +1,12 @@
 .project-holder{
     text-align: left;
     color: white;
-    margin: auto;
+    margin: 0.5vh 0.5vw;
     border: 5px solid white;
     border-radius: calc(1vh + 1vw);
     padding: 0.5vh 0.5vw;
     z-index: 1;
-    background-color: #2F3A82;   
+    background-color: #2F3A82;
+    height: 85%;
+    width: 85%;
 }

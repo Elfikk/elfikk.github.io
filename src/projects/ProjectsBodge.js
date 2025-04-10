@@ -27,7 +27,7 @@ const f1Sim = {"projectName": "F1 2024 Simulation",
     "long": "In 2024, I ran an F1 predictions competition for the second year in a row for friends. Curious about what the outcomes could look like for the rest of the season, I took statistics from the season to generate sensible F1 seasons, allowing me to look at points distributions for all the questions.",
     "tech": "Python (numpy/scipy/matplotlib)",
     "date": "06/2024",
-    "imageDir": "/SiteFrontPageSC.PNG"
+    "imageDir": "f1SimScorePred.png"
 };
 
 const worldDomProj = {"projectName": "World Domination",
@@ -51,7 +51,7 @@ const bscProj = {"projectName": "BSc Project - GWO Algorithm",
     "long": "The T2K experiment is an experiment based in Japan, one of the few in the world trying to detect neutrinos (as an aside - from the cost per neutrino detection so far is about a million dollars each). The experiment is effectively trying to find minima of a non-trivial 600-dimensional parameter space, which lets us estimate physical neutrino parameters. Classic optimisation algorithms like gradient-descent struggle, due to the amount of local minima within the space; Monte Carlo methods are currently used, though this still has issues i.e with dealing with discrete paramaters within the dimensions. The T2K group is therefore experimenting with class of optimisers known as swarm-based algorithms, algorithms are quote on quote inspired by natural phenomena, employing a large number of agents exploring a space via some form of heuristic to try and find the minimum. I looked at an algorithm which is motivated by wolf-hunting behaviour, Grey Wolf Optimisation (GWO). I implemented the algorithm in Python, tested it on different test functions in low dimensions to understand its behaviour, and then implemented it in C++ to run on the T2K computing clusters.",
     "tech": "Python (numpy/matplotlib), C++",
     "date": "03/2023",
-    "imageDir": "/gwoExample.gif"
+    "imageDir": "gwoExample.gif"
 };
 
 const tbps = {"projectName": "Team Based Problem Solving Project",
@@ -59,7 +59,7 @@ const tbps = {"projectName": "Team Based Problem Solving Project",
     "long": "The Physics department at Imperial offered a short-lived (only 2 years), professional skills module where all third year students would have to work as part of a group of 25 to solve a complex physics problem. This problem required knowledge of new physics, significant amounts of data analysis and drumroll, some machine learning. I was one of the few people on the ML subteam, developing a Random Forest approach to the classification problem (signal against background), though we eventually settled on a Boosted Decision Tree developed by a teammate - as other groups, we found it to breed better results after hyperparameter tuning. In weekly meetings with the wider groups, I relayed the ML teams progress and explained concepts, which made me the ideal candidate for presenting the Machine Learning section in our 30 minute presentation given to the other groups doing the project that term - the first and last time I presented to well over 100 people (I loved it).",
     "tech": "Python (sklearn/numpy/scipy/pandas)",
     "date": "12/2022",
-    "imageDir": "/Presenting.PNG"
+    "imageDir": "PresentingTBPSCrop.jpg"
 };
 
 const compPhysProj = {"projectName": "Soliton Propagation",
@@ -67,7 +67,7 @@ const compPhysProj = {"projectName": "Soliton Propagation",
     "long": "...where waves act like particles.",
     "tech": "Python (numpy/scipy/matplotlib)",
     "date": "12/2022",
-    "imageDir": "/Minesweeper.PNG"
+    "imageDir": "solitonGaussianBreak.gif"
 };
 
 const articleRecommender = {"projectName": "Article Recommender",

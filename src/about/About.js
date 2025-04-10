@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutPhoto from "./IMG_3038.jpg";
+import aboutPhoto from "./ME.jpg";
 
 function About() {
 
@@ -8,6 +8,7 @@ function About() {
         "SQL",
         "Java",
         "C++",
+        "C",
         "HTML",
         "CSS",
         "JS",
@@ -20,8 +21,8 @@ function About() {
         </li>
     );
 
-    const listItems1 = listItems.slice(0, tech.length/2);
-    const listItems2 = listItems.slice(tech.length/2);
+    const listItems1 = listItems.slice(0, tech.length/2+1);
+    const listItems2 = listItems.slice(tech.length/2+1);
 
     return (
         <section id = "about">

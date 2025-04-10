@@ -56,7 +56,7 @@ const bscProj = {"projectName": "BSc Project - GWO Algorithm",
 
 const tbps = {"projectName": "Team Based Problem Solving Project",
     "short": "Academic project in a group of 25, where I worked on our ML models.",
-    "long": "",
+    "long": "The Physics department at Imperial offered a short-lived (only 2 years), professional skills module where all third year students would have to work as part of a group of 25 to solve a complex physics problem. This problem required knowledge of new physics, significant amounts of data analysis and drumroll, some machine learning. I was one of the few people on the ML subteam, developing a Random Forest approach to the classification problem (signal against background), though we eventually settled on a Boosted Decision Tree developed by a teammate - as other groups, we found it to breed better results after hyperparameter tuning. In weekly meetings with the wider groups, I relayed the ML teams progress and explained concepts, which made me the ideal candidate for presenting the Machine Learning section in our 30 minute presentation given to the other groups doing the project that term - the first and last time I presented to well over 100 people (I loved it).",
     "tech": "Python (sklearn/numpy/scipy/pandas)",
     "date": "12/2022",
     "imageDir": "/Presenting.PNG"
@@ -72,15 +72,15 @@ const compPhysProj = {"projectName": "Soliton Propagation",
 
 const articleRecommender = {"projectName": "Article Recommender",
     "short": "Simple Topic Analysis for Recommending Articles.",
-    "long": "",
-    "tech": "Python (sklearn/tts)",
+    "long": "In doing some basic machine learning courses over the summer, I learnt of NNMF (Non-Negative Matrix Factorisation), a technique where a matrix (n by m) can be broken down into an approximate matrix multiplication form with a given number of dimensions (multiplication n x d to d x m, where we are free to choose d). An interesting application is in topic analysis; an article can be broken down into a proportion of times any given word appears within it. These proportion vectors can be put into a matrix, and once broken down into a multiplicative form, we retrieve d topics from the articles, and a break down of how much each article is about a certain topic. I built a proof of concept article recommender using this algorithm; using BeautifulSoup, I scraped articles from Sky News, performed NNMF on them to extract topics and then used a system of remembering a user's acceptance and rejections of recommendations to inform subsequent recommendations. I then added the functionality for a text-to-speech reading of the article once an article was accepted.",
+    "tech": "Python (sklearn/bs4/tts)",
     "date": "10/2022",
     "imageDir": "/ttsUiSC.PNG"
 };
 
 const minesweeperCopy = {"projectName": "Minesweeper",
     "short": "Recreation of the classic MS game, with a solver.",
-    "long": "",
+    "long": "Having grown to have a mild obsession with Minesweeper in my first couple years at uni, I wrote up the game from scratch in pyglet, an alternative to pygame which I found was a tonne more fun to work with. By being careful to follow at least the Single Responsibility Principle from SOLID at all times, I made it very easy to expand the game for myself; by using Adapter objects I was able to transform the backend's outputs to simple front-end ones, and then to write some game solvers. I initially attempted to train a deep learning agent, (DeepQ?), to solve the game with tensorflow2, having made it work with a simple game of blackjack. However, I found performance was poor, and eventually stumbled onto a paper which made it abundantly clear that my model would need an incredible amount of training to even be able to solve the simplest boards (think 500k games to get a 5x5 grid working - extremely wasteful compute time). I decided to solve the game algorithmically instead; I found a paper which presented the problem as a simultaneous equations. Using Gaussian Elimination and backtracing I was then able to make an algorithm which can handle all solvable games, and then added a heuristic to allow for the algorithm guessing.",
     "tech": "Python (pyglet/tensorflow2)",
     "date": "09/2022",
     "imageDir": "/MinesweeperSC.PNG"
@@ -88,7 +88,7 @@ const minesweeperCopy = {"projectName": "Minesweeper",
 
 const algoVisualiser = {"projectName": "Pathfinding Algorithm Visualisation",
     "short": "Visualisation of the A* algorithm using PyGame.",
-    "long": "",
+    "long": "It's in nearly everyone's project portfolio, and is so it in mine - a simple visualisation of a pathfinding algorithm. Having experimented before with PyGame for my A Level Computing coursework, I had another stab, making a simple grid-based 2-D pathfinder where the user can input walls on the grid and let the algorithm figure out the optimal path. A small PyQt5 pop-up can be used to change grid parameters at runtime. I implemented a min-heap as part of the project for use by A*, and to have some confidence in what it was chucking out, wrote 35 unit tests.",
     "tech": "Python (pygame/pyqt5/unittest)",
     "date": "06/2022",
     "imageDir": "/PathfindingSC.PNG"

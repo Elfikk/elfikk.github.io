@@ -1,7 +1,6 @@
 .project-showcase-holder{
     text-align: left;
     color: white;
-    /* width: 50%; */
     margin: auto;
     border: 5px solid white;
     border-radius: calc(1vh + 1vw);
@@ -9,6 +8,8 @@
     z-index: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "text photo"
 }
 
 .project-photo-border{
@@ -17,9 +18,15 @@
     margin-left: auto;
 }
 
+.project-showcase-text{
+    grid-area: text;
+    margin: 0 10vh 0 0;
+}
+
 #project-photo{
     max-width: 100%;
     max-height: 100%;
     border: 5px solid #171838;
     border-radius: calc(1.5vh + 1.5vw);
+    grid-area: photo;
 }

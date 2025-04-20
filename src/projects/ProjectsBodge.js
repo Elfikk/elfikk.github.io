@@ -1,10 +1,5 @@
 // I should also include crappy projects I did as a kid here, because why not. Not everything I have on display needs to be amazing - show some progression!
 
-// Sierpinski and Other Fractals
-// Mandelbrot and Julia Set Drawing
-// Gravitational Sim
-// Matrix Solver
-
 const thisDamnSite = {"projectName": "Personal Website",
     "short": "Look around...",
     "long": "",
@@ -94,6 +89,38 @@ const algoVisualiser = {"projectName": "Pathfinding Algorithm Visualisation",
     "imageDir": "/PathfindingSC.PNG"
 };
 
+const raytracer = {"projectName": "Raytracer",
+    "short": "Raytracer for Y1 Summer Project",
+    "long": "At the end of my first year of undergraduate studies, we had a an open-ended project, where we could pick pretty much anything to work. As part of a group of 4, we wrote a raytracing algorithm to visualise optical systems, with the end goal of the project potentially being able to visualise a rainbow. The idea of a raytracer is incredibly simple; rather than shooting out light from a source like a lamp or the Sun, we go backwards from a view. We define a viewport, and for each pixel on its plane we shoot a ray out, bounce it in the environment to determine its colour and intensity up to some maximum depth. Our raytracer handled reflection and refraction, with refraction being wavelength based, which allowed us to visualise chromatic abberation, though with a slightly dodgy colour display. Ultimately, the raytracer was not able to show us a rainbow, but we made some stunning visuals in the process that we could compare to what's out there! My favourite is displayed on the right, where we put a glass sphere in front of a small blue one and a bigger pink one - we can see the reflection and refraction effects display here very clearly.",
+    "tech": "Python (numpy/scipy/matplotlib)",
+    "date": "06/2021",
+    "imageDir": "HighQualityRefraction.png"
+};
+
+const gFieldSim = {"projectName": "Gravitational Sim",
+    "short": "Visualising Newtonian Gravity Dynamics",
+    "long": "Probably the most bog standard physics-y project anyone ever does as a teenager. I found the idea of writing simulations incredibly cool, but didn't really know where to start - not like I had much guidance in college! As someone who found astrophysics cool as a kid though, I looked at Newtonian gravity equations and wrote a time-step based simulation, using Euler's method without knowing the name until several years later. I did start writing some extensions to this having studied magnetic and electric fields to have simulations of charge movement, but never finished it - clearly younger Jarek had better things to do.",
+    "tech": "Python (turtle)",
+    "date": "06/2019",
+    "imageDir": "/Mandelbrot.PNG"
+};
+
+const fractalIllustration = {"projectName": "Fractal Illustrations",
+    "short": "Umbrella for all the Illustrations I did",
+    "long": "As a teenager and going into university, I found the concept of the repeating fractal patterns absolutely fascinating. I think there is a beauty in some of these patterns. I enjoyed the challenge of drawing these recursive patterns. I drew some more well known patterns, like the Mandelbrot and Julia sets, where out of my own ignorance out of Python's features, I wrote my own complex numbers implementation, which was some of my first OOP code! I also drew other patterns; I enjoyed the challenge of going from a pattern, finding a mathematical way to parametrise it, and then implementing it efficiently with some detail. Writing turtle isn't exactly impressive, but this was the toolset I had at the time :)",
+    "tech": "Python (turtle)",
+    "date": "xx/20xx",
+    "imageDir": "/Mandelbrot.PNG"
+};
+
+const matrixSolver = {"projectName": "3D Vector Solver",
+    "short": "Question Generation for A Level Math",
+    "long": "This was the first piece of OOP I ever wrote. I remember really struggling with 3D Vector work at A Level, where one usually had to find the minimum distance between two different lines, or a plane and line. The math textbook I had only had a couple of these questions, and there was a limited number of past questions of the sort as we were working under a new spec. There was a easy enough way to formulate these questions though, and the process could be broken down into a question involving a 3D matrix and vectors between certain points. I wrote Point, Vector and 3D Matrix classes to write out an algorithm which solved this for arbitrary lines, allowing me to practice more - it probably doesn't get nerdier than that, but it was an incredibly useful tool for revision at the time. Little Jarek did not know at the scientific Python stack so rewrote some standard things here, but really it must have done me some good.",
+    "tech": "Python",
+    "date": "04/2019",
+    "imageDir": "/VectorQ.png"
+};
+
 // allProjs - List of maps describing projects (woah)
 // Map format - ID, ProjectName, Short, Long, Tech, Date, ImageDir
 // Short - Short description that must fit in a project summary container.
@@ -109,7 +136,11 @@ const allProjs = [
     compPhysProj,
     articleRecommender,
     minesweeperCopy,
-    algoVisualiser
+    algoVisualiser,
+    raytracer,
+    gFieldSim,
+    fractalIllustration,
+    matrixSolver
 ];
 
 export {allProjs};

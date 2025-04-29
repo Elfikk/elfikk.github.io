@@ -2,3 +2,8 @@
   text-align: center;
   background-color: #2F3A82;
 }
+
+.content {
+  flex-grow: 1;
+  overflow: auto;
+}

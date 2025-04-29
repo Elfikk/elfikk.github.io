@@ -7,10 +7,14 @@ import Projects from './projects/Projects';
 function App() {
   return (
     <div className="App">
-      <SiteNavbar></SiteNavbar>
-      <Intro></Intro>
-      <About></About>
-      <Projects></Projects>
+      <div className="navbarDiv">
+        <SiteNavbar></SiteNavbar>
+      </div>
+      <div className="content">
+        <Intro></Intro>
+        <About></About>
+        <Projects></Projects>
+      </div>
     </div>
   );
 }

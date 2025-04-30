@@ -1,7 +1,8 @@
 .project-showcase-holder{
+    position: absolute;
     text-align: left;
     color: white;
-    margin: auto;
+    background-color: darkblue;
     border: 5px solid white;
     border-radius: calc(1vh + 1vw);
     padding: 0.5vh 0.5vw;
@@ -9,7 +10,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "text photo"
+    "text photo";
+    /* This is so hacky */
+    width: 75.1vw;
+    margin-right: 1vw;
+    justify-self: center;
+    align-self: center;
 }
 
 .project-photo-border{
@@ -29,4 +35,5 @@
     border: 5px solid #171838;
     border-radius: calc(1.5vh + 1.5vw);
     grid-area: photo;
+    justify-self: center;
 }

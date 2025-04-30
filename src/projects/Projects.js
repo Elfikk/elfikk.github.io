@@ -31,7 +31,7 @@ function Projects() {
     }
 
     function backToGrid(e) {
-        setInGridView(0);
+        setInGridView(1);
         updateBlurState(1);
     }
 
@@ -48,21 +48,21 @@ function Projects() {
         style = {{"grid-column": projectSummaryCol(index), "grid-row": projectSummaryRow(index)}}/>
     )
 
-    const gridMode =  <div id = "project-grid">{gridComponents}</div>
-
     return (
         <section id = "projects">
             <h1>Projects</h1>
             <p>Mostly personal, though I've highlighted a few academic ones. </p>
             <p>Click on a project for more detail, and click again to go back to the grid.</p>
 
-            {(gridMode)}
+            <div id = "project-grid">
+                {gridComponents}
+                {inGridView ? (
+                    <></>
+                ) : (
+                    <ProjectShowcase projDets={allProjs[projID]} clickMethod={backToGrid}/>
+                )}
+            </div>
 
-            {inGridView ? (
-                <></>
-            ) : (
-                 <ProjectShowcase projDets={allProjs[projID]} clickMethod={backToGrid}/>
-            )}
 
         </section>
     );

@@ -8,7 +8,6 @@ function About() {
         "SQL",
         "Java",
         "C++",
-        "C",
         "HTML",
         "CSS",
         "JS",

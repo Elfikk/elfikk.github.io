@@ -63,7 +63,6 @@ function Projects() {
                 )}
             </div>
 
-
         </section>
     );
 }

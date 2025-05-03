@@ -9,12 +9,12 @@
     width: 100%;
     border: 5px solid white;
     border-radius: calc(1vh + 1vw);
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 16 / 7;
     object-fit: cover;
 }
 
 .showImage:hover {
-    filter: blur(50%);
+    filter: brightness(50%);
 }
 
 .showTitle {

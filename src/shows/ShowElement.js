@@ -6,6 +6,9 @@ function ShowElement({showId, showDets})
     <div className="showElement" id={showId}>
         <img className="showImage" src={showDets.imageDir} alt=""/>
         <div className="showTitle">{showDets.showName}</div>
+        <div className="baseText">
+
+        </div>
     </div>);
 };
 

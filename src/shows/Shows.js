@@ -11,7 +11,7 @@ function Shows()
     return (
         <section id = "shows">
             <h1>Shows and Events</h1>
-            <p>Mostly lighting unsurprisingly.</p>
+            <p>Mostly lighting unsurprisingly. I think I can be proud of the shows below given I had not done any of this prior to Edinburgh Fringe 2022, which itself was not a gentle introduction.</p>
             <div id = "showGrid">
                 {gridComponents}
             </div>

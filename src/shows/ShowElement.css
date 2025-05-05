@@ -13,7 +13,7 @@
     object-fit: cover;
 }
 
-.showImage:hover {
+.showElement:hover .showImage {
     filter: brightness(50%);
 }
 
@@ -24,4 +24,24 @@
     left: 50%;
     transform: translate(-50%, 0);
     font-size: large;
+    width: 80%;
+}
+
+.hiddenText {
+    filter: opacity(0);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    width: 85%;
+}
+
+.roles {
+    font-size: smaller;
+}
+
+.showElement:hover .hiddenText {
+    filter: opacity(1);
 }

@@ -11,7 +11,7 @@ function Intro() {
                   "💻 Hobbyist Coder and Developer @ Carallon",
                   "💡 Former ICU DramSoc Lighting Director",
                   "🍵 Former ICU TeaSoc Chair",
-                  "☕ General Caffeine Enjoyer"];
+                  "🏎️ F1 Fan, but not a Sky Q or Sky Glass Customer"];
 
     const [index, setIndex] = useState(0);
     const maxCount = desc.length;

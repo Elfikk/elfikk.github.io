@@ -1,17 +1,3 @@
-// Shows
-// Edinburgh Fringe 2022 - Stop the Press! - Show Designer/Operator. FLX S24/QLab4
-// Earthquakes in London - Assistant Light Designer / Light Operator - EOS
-// Addams Family - Mic Monkey
-// The Pillowman - Show Designer/Operator - EOS/QLab4
-// DramFest - Grinolio's Home - My only acting credit
-// October Show 2023 - Light Designer/DSM
-// Revue 2023 - Lead Light Designer/DSM
-// Romeo and Juliet - Lead Light Designer/DSM
-// Spring Awakening - Production Manager/Light Designer/Light Operator
-// Big Fish - Sound Operator - SD9
-// IDEA 2025 - Light Designer and Show Operator - Avo TT2
-// Should also mention a couple misc events nights i.e ACC Halloween 2023 (Light Op), CGCU Dinner (General Crew?), CSSA (Production Manager), Acapella Competition
-
 const fringe = {"showName": "Stop The Press (Edinburgh Fringe 2022)",
     "short": "DramSoc Fringe Production and my first show, making first cues and picking up QLab and a Zero88 desk to run a show.",
     "role": "Show Designer/Operator",
@@ -43,14 +29,6 @@ const pillowman = {"showName": "The Pillowman",
     "date": "03/23",
     "imageDir": "/pillowman.JPG"
 };
-
-// const mt2423 = {"showName": "MT24 - Wicked",
-//     "short": "24h to put on Wicked the Musical",
-//     "role": "Crew",
-//     "tech": "",
-//     "date": "06/23",
-//     "imageDir": "/mt2423.jpg"
-// };
 
 const grinolio = {"showName": "Grinolio's Home",
     "short": "My only acting credit, where I played an Italian chef in a student-written comedy at Dramfest 23.",
@@ -172,7 +150,6 @@ const allShows = [
     earthquakes,
     addamsFamily,
     pillowman,
-    // mt2423,
     grinolio,
     upbeat23,
     octShow23,

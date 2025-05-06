@@ -3,7 +3,7 @@ const fringe = {"showName": "Stop The Press (Edinburgh Fringe 2022)",
     "role": "Show Designer/Operator",
     "tech": "Phantom FLX S24/QLab4",
     "date": "08/22",
-    "imageDir": "/fringe.jpg"
+    "imageDir": "showImgs/fringe.jpg"
 };
 
 const earthquakes = {"showName": "Earthquakes in London",
@@ -11,7 +11,7 @@ const earthquakes = {"showName": "Earthquakes in London",
     "role": "Assistant LD / Lighting Operator",
     "tech": "EOS",
     "date": "01/23",
-    "imageDir": "/earthquakes.JPG"
+    "imageDir": "showImgs/earthquakes.JPG"
 };
 
 const addamsFamily = {"showName": "Addams Family",
@@ -19,7 +19,7 @@ const addamsFamily = {"showName": "Addams Family",
     "role": "Mic Monkey",
     "tech": "Mics and Tape lol",
     "date": "03/23",
-    "imageDir": "/addamsFamily.jpeg"
+    "imageDir": "showImgs/addamsFamily.jpeg"
 };
 
 const pillowman = {"showName": "The Pillowman",
@@ -27,7 +27,7 @@ const pillowman = {"showName": "The Pillowman",
     "role": "Show Designer/Operator",
     "tech": "EOS/QLab4",
     "date": "03/23",
-    "imageDir": "/pillowman.JPG"
+    "imageDir": "showImgs/pillowman.JPG"
 };
 
 const grinolio = {"showName": "Grinolio's Home",
@@ -35,7 +35,7 @@ const grinolio = {"showName": "Grinolio's Home",
     "role": "Super Mario",
     "tech": "I acted (oh no)",
     "date": "06/23",
-    "imageDir": "/grinolio.jpg"
+    "imageDir": "showImgs/grinolio.jpg"
 };
 
 const upbeat23 = {"showName": "Upbeat Rocks 23",
@@ -43,7 +43,7 @@ const upbeat23 = {"showName": "Upbeat Rocks 23",
     "role": "Lighting Operator",
     "tech": "Avo TT2",
     "date": "06/23",
-    "imageDir": "/upbeat.jpg"
+    "imageDir": "showImgs/upbeat.jpg"
 };
 
 // Creating Gabriel
@@ -53,7 +53,7 @@ const octShow23 = {"showName": "October Show 23",
     "role": "Lead Lighting Designer / DSM",
     "tech": "EOS",
     "date": "10/23",
-    "imageDir": "/octShow23.JPG"
+    "imageDir": "showImgs/octShow23.JPG"
 };
 
 const cgcuDinner23 = {"showName": "CGCU Dinner 23",
@@ -61,7 +61,7 @@ const cgcuDinner23 = {"showName": "CGCU Dinner 23",
     "role": "Crew",
     "tech": "Avo TT2",
     "date": "10/23",
-    "imageDir": "/cgcuDinner.jpg"
+    "imageDir": "showImgs/cgcuDinner.jpg"
 };
 
 const halloweenACC23 = {"showName": "Halloween ACC 23",
@@ -69,7 +69,7 @@ const halloweenACC23 = {"showName": "Halloween ACC 23",
     "role": "Crew / Light Op",
     "tech": "Avo TT2",
     "date": "11/23",
-    "imageDir": "/acc23.jpg"
+    "imageDir": "showImgs/acc23.jpg"
 };
 
 const revue23 = {"showName": "Revue 23",
@@ -77,7 +77,7 @@ const revue23 = {"showName": "Revue 23",
     "role": "Lead Lighting Designer / DSM / Production Manager",
     "tech": "EOS",
     "date": "12/23",
-    "imageDir": "/revue23.jpg"
+    "imageDir": "showImgs/revue23.jpg"
 };
 
 const romeoAndJuliet = {"showName": "Romeo and Juliet",
@@ -85,7 +85,7 @@ const romeoAndJuliet = {"showName": "Romeo and Juliet",
     "role": "Lead Lighting Designer / DSM",
     "tech": "EOS",
     "date": "01/24",
-    "imageDir": "/romeoAndJuliet.jpg"
+    "imageDir": "showImgs/romeoAndJuliet.jpg"
 };
 
 const cssa24 = {"showName": "CSSA 2024",
@@ -93,7 +93,7 @@ const cssa24 = {"showName": "CSSA 2024",
     "role": "Production Manager",
     "tech": "",
     "date": "02/24",
-    "imageDir": "/cssa.jpeg"
+    "imageDir": "showImgs/cssa.jpeg"
 };
 
 const acapellaCompetition = {"showName": "OAC 2024",
@@ -101,7 +101,7 @@ const acapellaCompetition = {"showName": "OAC 2024",
     "role": "Lighting Operator",
     "tech": "Avo TT2",
     "date": "02/24",
-    "imageDir": "/oac2024.PNG"
+    "imageDir": "showImgs/oac2024.PNG"
 };
 
 const springAwakening = {"showName": "Spring Awakening",
@@ -109,7 +109,7 @@ const springAwakening = {"showName": "Spring Awakening",
     "role": "Production Manager / Lighting Designer / Lighting Operator",
     "tech": "EOS/When2Meet frfr",
     "date": "03/24",
-    "imageDir": "/springAwakening.jpeg"
+    "imageDir": "showImgs/springAwakening.jpeg"
 };
 
 const bigFish = {"showName": "Big Fish",
@@ -117,7 +117,7 @@ const bigFish = {"showName": "Big Fish",
     "role": "Sound Operator",
     "tech": "SD9",
     "date": "03/24",
-    "imageDir": "/bigFish.jpg"
+    "imageDir": "showImgs/bigFish.jpg"
 };
 
 const fashion24 = {"showName": "IC Fashion 2024",
@@ -125,7 +125,7 @@ const fashion24 = {"showName": "IC Fashion 2024",
     "role": "Lighting Operator",
     "tech": "Avo TT2",
     "date": "06/24",
-    "imageDir": "/fashion.jpg"
+    "imageDir": "showImgs/fashion.jpg"
 };
 
 const silfest24 = {"showName": "Silfest 24",
@@ -133,7 +133,7 @@ const silfest24 = {"showName": "Silfest 24",
     "role": "Lighting Designer",
     "tech": "Avolites TT2",
     "date": "07/24",
-    "imageDir": "/silfest24.jpg"
+    "imageDir": "showImgs/silfest24.jpg"
 };
 
 const idea2025 = {"showName": "IDEA 2025",
@@ -141,7 +141,7 @@ const idea2025 = {"showName": "IDEA 2025",
     "role": "Lighting Designer / Show Operator",
     "tech": "Avolites TT2",
     "date": "03/25",
-    "imageDir": "/idea25.jpg"
+    "imageDir": "showImgs/idea25.jpg"
 };
 
 

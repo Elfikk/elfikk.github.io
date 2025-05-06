@@ -5,13 +5,13 @@ function About() {
 
     const tech = [
         "Python",
-        "SQL",
-        "Java",
         "C++",
         "HTML",
         "CSS",
         "JS",
-        "React"
+        "React",
+        "SQL",
+        "Java",
     ]
 
     const listItems = tech.map(element =>
@@ -20,8 +20,8 @@ function About() {
         </li>
     );
 
-    const listItems1 = listItems.slice(0, tech.length/2+1);
-    const listItems2 = listItems.slice(tech.length/2+1);
+    const listItems1 = listItems.slice(0, tech.length/2);
+    const listItems2 = listItems.slice(tech.length/2);
 
     return (
         <section id = "about">

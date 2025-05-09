@@ -13,18 +13,42 @@ function Intro() {
                   "🍵 Former ICU TeaSoc Chair",
                   "🏎️ F1 Fan, but not a Sky Q or Sky Glass Customer"];
 
-    const [index, setIndex] = useState(0);
+    const [indexVisible, setIndexVisible] = useState(0);
+    const [indexInvisible, setIndexInvisible] = useState(-1);
     const maxCount = desc.length;
 
-    function incrementIndex() {
+    function showNextDescription() {
         // I would like a nicer transition here, with a row below moving up
         // with a fade out between those two.
-        setIndex((index + 1) % maxCount);
+
+        const keyframesOut = {
+            opacity: [1, 0],
+            top: ["0%", "-50%"]
+        }
+        const keyframesIn = {
+            opacity: [0, 1],
+            top: ["50%", "0%"]
+        }
+
+        const currentDesc = document.getElementById("b-role");
+        const nextDesc = document.getElementById("a-role");
+
+        setIndexInvisible((indexInvisible + 1) % maxCount);
+        currentDesc.style.opacity = 1;
+        nextDesc.style.opacity = 0;
+
+        currentDesc.animate(keyframesOut, 1000);
+
+        setIndexVisible((indexVisible + 1) % maxCount);
+        nextDesc.animate(keyframesIn, 1000);
+
+        nextDesc.style.opacity = 1;
+        currentDesc.style.opacity = 0;
     }
 
     // Update time in milliseconds.
     const updateTime = 5000;
-    setTimeout(incrementIndex, updateTime);
+    setTimeout(showNextDescription, updateTime);
 
     return (
         <div className = "intro-section">
@@ -37,7 +61,10 @@ function Intro() {
                     <span id = "my-name-colon">,</span>
                 </div>
 
-                <h3 id = "a-role">{desc[index]}</h3>
+                <div id = "desc_holder">
+                    <div id = "a-role">{desc[indexVisible]}</div>
+                    <div id = "b-role">{desc[indexInvisible]}</div>
+                </div>
 
                 <span className = "intro-links">
                     <a href="https://github.com/Elfikk" target="_blank" rel="noreferrer">

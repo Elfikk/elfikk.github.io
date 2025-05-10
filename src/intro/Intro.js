@@ -13,37 +13,67 @@ function Intro() {
                   "🍵 Former ICU TeaSoc Chair",
                   "🏎️ F1 Fan, but not a Sky Q or Sky Glass Customer"];
 
-    const [indexVisible, setIndexVisible] = useState(0);
-    const [indexInvisible, setIndexInvisible] = useState(-1);
+    const [indexDescA, setIndexA] = useState(0);
+    const [indexDescB, setIndexB] = useState(0);
+    const [iterCount, setIterCount] = useState(1);
     const maxCount = desc.length;
 
     function showNextDescription() {
         // I would like a nicer transition here, with a row below moving up
         // with a fade out between those two.
 
+        const currentDesc = document.getElementById("b-role");
+        const nextDesc = document.getElementById("a-role");
+
+        setIterCount(iterCount + 1);
+        console.log(iterCount);
+        if (iterCount % 2)
+        {
+            var visible = currentDesc;
+            var invisible = nextDesc;
+            var visibleIter = setIndexB;
+            console.log("A");
+        } else {
+            var visible = nextDesc;
+            var invisible = currentDesc;
+            var visibleIter = setIndexA;
+            console.log("B");
+        }
+        visibleIter(iterCount % maxCount);
+        startOutAnimation(invisible);
+        setInvisibleStyle(invisible);
+        setVisibleStyle(visible);
+        startInAnimation(visible);
+    }
+
+    function setVisibleStyle(element)
+    {
+        element.style.opacity = 1;
+        element.style.top = 0;
+    }
+
+    function setInvisibleStyle(element)
+    {
+        element.style.opacity = 0;
+        element.style.top = "50%";
+    }
+
+    function startOutAnimation(element)
+    {
         const keyframesOut = {
             opacity: [1, 0],
             top: ["0%", "-50%"]
         }
+        element.animate(keyframesOut, 1500);
+    }
+
+    function startInAnimation(element)
+    {
         const keyframesIn = {
             opacity: [0, 1],
             top: ["50%", "0%"]
         }
-
-        const currentDesc = document.getElementById("b-role");
-        const nextDesc = document.getElementById("a-role");
-
-        setIndexInvisible((indexInvisible + 1) % maxCount);
-        currentDesc.style.opacity = 1;
-        nextDesc.style.opacity = 0;
-
-        currentDesc.animate(keyframesOut, 1000);
-
-        setIndexVisible((indexVisible + 1) % maxCount);
-        nextDesc.animate(keyframesIn, 1000);
-
-        nextDesc.style.opacity = 1;
-        currentDesc.style.opacity = 0;
+        element.animate(keyframesIn, 1500);
     }
 
     // Update time in milliseconds.
@@ -62,8 +92,8 @@ function Intro() {
                 </div>
 
                 <div id = "desc_holder">
-                    <div id = "a-role">{desc[indexVisible]}</div>
-                    <div id = "b-role">{desc[indexInvisible]}</div>
+                    <div id = "a-role">{desc[indexDescA]}</div>
+                    <div id = "b-role">{desc[indexDescB]}</div>
                 </div>
 
                 <span className = "intro-links">

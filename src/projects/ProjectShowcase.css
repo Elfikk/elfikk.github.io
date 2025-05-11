@@ -30,7 +30,7 @@
 }
 
 #project-photo{
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
     border: 5px solid #171838;
     border-radius: calc(1.5vh + 1.5vw);

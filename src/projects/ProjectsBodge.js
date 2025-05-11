@@ -2,10 +2,10 @@
 
 const thisDamnSite = {"projectName": "Personal Website",
     "short": "Look around...",
-    "long": "",
+    "long": "Staple part of any portfolio. Really I need more projects under my belt, but this was a fun one.",
     "tech": "React, JS, HTML, CSS",
     "date": "04/2025",
-    "imageDir": "projImgs/SiteFrontPageSC.PNG"
+    "imageDir": "projImgs/siteFrontPage.PNG"
 };
 
 const f1Powerpoint = {"projectName": "F1 Competition 2024 Powerpoint",
@@ -110,7 +110,7 @@ const fractalIllustration = {"projectName": "Fractal Illustrations",
     "long": "As a teenager and going into university, I found the concept of the repeating fractal patterns absolutely fascinating. I think there is a beauty in some of these patterns. I enjoyed the challenge of drawing these recursive patterns. I drew some more well known patterns, like the Mandelbrot and Julia sets, where out of my own ignorance out of Python's features, I wrote my own complex numbers implementation, which was some of my first OOP code! I also drew other patterns; I enjoyed the challenge of going from a pattern, finding a mathematical way to parametrise it, and then implementing it efficiently with some detail. Writing turtle isn't exactly impressive, but this was the toolset I had at the time :)",
     "tech": "Python (turtle)",
     "date": "xx/20xx",
-    "imageDir": "projImgs/Mandelbrot.PNG"
+    "imageDir": "projImgs/mandelbrot.PNG"
 };
 
 const matrixSolver = {"projectName": "3D Vector Solver",

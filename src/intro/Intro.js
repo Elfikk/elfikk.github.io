@@ -27,16 +27,20 @@ function Intro() {
 
         setIterCount(iterCount + 1);
         console.log(iterCount);
+
+        var visible;
+        var invisible;
+        var visibleIter;
         if (iterCount % 2)
         {
-            var visible = currentDesc;
-            var invisible = nextDesc;
-            var visibleIter = setIndexB;
+            visible = currentDesc;
+            invisible = nextDesc;
+            visibleIter = setIndexB;
             console.log("A");
         } else {
-            var visible = nextDesc;
-            var invisible = currentDesc;
-            var visibleIter = setIndexA;
+            visible = nextDesc;
+            invisible = currentDesc;
+            visibleIter = setIndexA;
             console.log("B");
         }
         visibleIter(iterCount % maxCount);

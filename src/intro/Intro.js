@@ -26,7 +26,6 @@ function Intro() {
         const nextDesc = document.getElementById("a-role");
 
         setIterCount(iterCount + 1);
-        console.log(iterCount);
 
         var visible;
         var invisible;
@@ -36,12 +35,10 @@ function Intro() {
             visible = currentDesc;
             invisible = nextDesc;
             visibleIter = setIndexB;
-            console.log("A");
         } else {
             visible = nextDesc;
             invisible = currentDesc;
             visibleIter = setIndexA;
-            console.log("B");
         }
         visibleIter(iterCount % maxCount);
         startOutAnimation(invisible);

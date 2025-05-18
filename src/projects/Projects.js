@@ -12,9 +12,6 @@ function Projects() {
 
     function expandProject(e) {
         setID(e.target.id);
-        console.log("CLICK CLACK MOTHAFUCKA " + projID);
-        console.log(e.target);
-
         // I'd like a better transition; the clicker project should stay fully
         // visible, whilst the grid fades out and simultaneously the box gets larger.
         setInGridView(0);

@@ -61,9 +61,10 @@ function About() {
                         I personally mostly worked in lighting, often overseeing rig
                         design, lighting desk programming and light operation during
                         events. I was the Lighting Director of the society in my last
-                        year so I was often found tinkering in backstage, and have even
-                        gone back to working on a dance show, programming 32 songs over
-                        3 weeks whilst having a full time job in the process...
+                        year so I was often found tinkering in backstage. I have even
+                        gone back to work on a dance show in March 2025, programming
+                        32 songs over 3 weeks whilst having a full time job in the
+                        process...
                     </p>
                     <p>
                         It was a fairly natural step to join Carallon as a developer

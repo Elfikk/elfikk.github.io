@@ -33,13 +33,13 @@ const worldDomProj = {"projectName": "World Domination",
     "imageDir": "projImgs/WorldDomSC.PNG"
 };
 
-const androidStudioPOC = {"projectName": "Android Chaquopy Proof of Concept",
-    "short": "Proof of concept in Android Studio using the Chaquopy library to integrate matplotlib in an app.",
-    "long": "",
-    "tech": "Android Studio, Java, Python",
-    "date": "08/2023",
-    "imageDir": "projImgs/AppSC.PNG"
-};
+// const androidStudioPOC = {"projectName": "Android Chaquopy Proof of Concept",
+//     "short": "Proof of concept in Android Studio using the Chaquopy library to integrate matplotlib in an app.",
+//     "long": "",
+//     "tech": "Android Studio, Java, Python",
+//     "date": "08/2023",
+//     "imageDir": "projImgs/AppSC.PNG"
+// };
 
 const bscProj = {"projectName": "BSc Project - GWO Algorithm",
     "short": "Grey Wolf Optimisation algorithm for potential use in T2K.",
@@ -130,7 +130,7 @@ const allProjs = [
     f1Powerpoint,
     f1Sim,
     worldDomProj,
-    androidStudioPOC,
+    // androidStudioPOC, // At some point I'll make an app.
     bscProj,
     tbps,
     compPhysProj,

@@ -57,7 +57,7 @@ const octShow23 = {"showName": "October Show 23",
 };
 
 const cgcuDinner23 = {"showName": "CGCU Dinner 23",
-    "short": "24h Event Craziness: Pack Equipment Into a Van -> Transport to de Vere Connaught Rooms -> Set up AV in the main hall -> Run the Dinner -> Set up the AV at the dancefloor -> Run the Club Section -> Pack up -> Transport -> Pack into Storage",
+    "short": "24h Event Craziness: Pack Equipment Into a Van (@8am Sat) -> Transport to de Vere Connaught Rooms -> Set up AV in the main hall -> Run the Dinner -> Set up the AV at the dancefloor -> Run the Club Section -> Pack up -> Transport -> Pack into Storage (@7am Sun)",
     "role": "Crew",
     "tech": "Avo TT2",
     "date": "10/23",

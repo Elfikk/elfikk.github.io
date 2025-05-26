@@ -133,7 +133,7 @@ const silfest24 = {"showName": "Silfest 24",
     "role": "Lighting Designer",
     "tech": "Avolites TT2",
     "date": "07/24",
-    "imageDir": "showImgs/silfest24.jpg"
+    "imageDir": "showImgs/silfest24.JPG"
 };
 
 const idea2025 = {"showName": "IDEA 2025",

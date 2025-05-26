@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Elfikk.github.io/static/css/main.2aa85c58.css",
+    "main.js": "/Elfikk.github.io/static/js/main.c77714f4.js",
+    "static/js/453.253ccfac.chunk.js": "/Elfikk.github.io/static/js/453.253ccfac.chunk.js",
+    "static/media/PillowmanPhoto.JPG": "/Elfikk.github.io/static/media/PillowmanPhoto.ca666ae6738ee5228666.JPG",
+    "static/media/ME.jpg": "/Elfikk.github.io/static/media/ME.b059f6c50b5cdddc905e.jpg",
+    "index.html": "/Elfikk.github.io/index.html",
+    "static/media/githubLogo.svg": "/Elfikk.github.io/static/media/githubLogo.02176a7b70d68c8e0be966a37194364c.svg",
+    "static/media/gmailLogo.svg": "/Elfikk.github.io/static/media/gmailLogo.f42d8d7d62b666f156b13af7a3c2f859.svg",
+    "static/media/linkedinLogo.svg": "/Elfikk.github.io/static/media/linkedinLogo.798796046790923cab23547b47be5f47.svg",
+    "main.2aa85c58.css.map": "/Elfikk.github.io/static/css/main.2aa85c58.css.map",
+    "main.c77714f4.js.map": "/Elfikk.github.io/static/js/main.c77714f4.js.map",
+    "453.253ccfac.chunk.js.map": "/Elfikk.github.io/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa85c58.css",
+    "static/js/main.c77714f4.js"
+  ]
+}

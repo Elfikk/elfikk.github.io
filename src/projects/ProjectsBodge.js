@@ -70,7 +70,7 @@ const articleRecommender = {"projectName": "Article Recommender",
     "long": "In doing some basic machine learning courses over the summer, I learnt of NNMF (Non-Negative Matrix Factorisation), a technique where a matrix (n by m) can be broken down into an approximate matrix multiplication form with a given number of dimensions (multiplication n x d to d x m, where we are free to choose d). An interesting application is in topic analysis; an article can be broken down into a proportion of times any given word appears within it. These proportion vectors can be put into a matrix, and once broken down into a multiplicative form, we retrieve d topics from the articles, and a break down of how much each article is about a certain topic. I built a proof of concept article recommender using this algorithm; using BeautifulSoup, I scraped articles from Sky News, performed NNMF on them to extract topics and then used a system of remembering a user's acceptance and rejections of recommendations to inform subsequent recommendations. I then added the functionality for a text-to-speech reading of the article once an article was accepted.",
     "tech": "Python (sklearn/bs4/tts)",
     "date": "10/2022",
-    "imageDir": "projImgs/ttsUiSC.PNG"
+    "imageDir": "projImgs/NMF.png"
 };
 
 const minesweeperCopy = {"projectName": "Minesweeper",

@@ -18,14 +18,14 @@
 }
 
 #heya{
-    font-size: 3vh;
+    font-size: min(3vh, 3vw);
     padding: 0%;
     margin: 0;
     font-weight: normal;
 }
 
 .my-name{
-    font-size: 12vh;
+    font-size: min(12vh, 8vw);
     padding: 0%;
     margin: 0;
 }
@@ -37,9 +37,9 @@
 #desc_holder {
     position: relative;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: min(2vh, 2vw);
     margin: 0;
-    height: 6vh;
+    height: min(6vh, 6vw);
 }
 
 #a-role {
@@ -71,7 +71,7 @@
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
-    border: 5px solid #ffffff;
-    border-radius: calc(1.5vh + 1.5vw);
+    border: min(5px, 1vw) solid #ffffff;
+    border-radius: min(2vh, 2vw);
 }
 

@@ -6,6 +6,14 @@
     padding-top: 4vh;
 }
 
+#showsHeader {
+    font-size: min(3vh, 2vw);
+}
+
+.showsText {
+    font-size: min(1.7vh, 1vw);
+}
+
 #showGrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

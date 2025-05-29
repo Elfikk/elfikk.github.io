@@ -3,7 +3,7 @@
     margin: 5vh auto;
     padding: 0% 10vw;
     padding-top: 4vh;
-    height: 100vh;
+    height: 100%;
 }
 
 .about-grid{
@@ -14,11 +14,13 @@
 .about-text{
     color:white;
     text-align: left;
+    font-size: min(1.7vh, 1vw);
 }
 
 #about-header{
     text-align: left;
     color:white;
+    font-size: min(3vh, 2vw);
 }
 
 .tech-list{
@@ -44,6 +46,6 @@ li{
 #about-photo{
     max-width: 100%;
     max-height: 100%;
-    border: 5px solid #171838;
+    border: min(5px, 1vw) solid #171838;
     border-radius: calc(1.5vh + 1.5vw);
 }

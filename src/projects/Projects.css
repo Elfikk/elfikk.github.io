@@ -1,9 +1,19 @@
 #projects{
+    position: relative;
     background-color: #2F3A82;
     color: white;
     text-align: left;
     padding: 0% 10vw;
     padding-top: 4vh;
+    height: 100%;
+}
+
+#project-heading {
+    font-size: min(3vh, 2vw);
+}
+
+.project-text {
+    font-size: min(1.7vh, 1vw);
 }
 
 #project-grid{

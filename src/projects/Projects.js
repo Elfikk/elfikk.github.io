@@ -47,9 +47,11 @@ function Projects() {
 
     return (
         <section id = "projects">
-            <h1>Projects</h1>
-            <p>Mostly personal, though I've highlighted a few academic ones. </p>
-            <p>Click on a project for more detail, and click again to go back to the grid.</p>
+            <h1 id="project-heading">Projects</h1>
+            <div className="project-text">
+                <p>Mostly personal, though I've highlighted a few academic ones. </p>
+                <p>Click on a project for more detail, and click again to go back to the grid.</p>
+            </div>
 
             <div id = "project-grid">
                 {gridComponents}

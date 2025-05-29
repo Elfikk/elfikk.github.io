@@ -5,9 +5,9 @@ function ProjectShowcase({projDets, clickMethod}) {
     return (
         <div className="project-showcase-holder" onClick={clickMethod}>
             <div className = "project-showcase-text">
-                <h3 className="generic-header">{projDets.projectName}</h3>
-                <p className="generic-short">{projDets.long}</p>
-                <p className="generic-tech">{"Tech: " + projDets.tech}</p>
+                <h3 className="showcase-header">{projDets.projectName}</h3>
+                <p className="showcase-short">{projDets.long}</p>
+                <p className="showcase-tech">{"Tech: " + projDets.tech}</p>
             </div>
             {/* How does one dynamically link images passed as props */}
             {/* Its faffy */}

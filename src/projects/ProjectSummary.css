@@ -2,7 +2,7 @@
     text-align: left;
     color: white;
     margin: 0.5vh 0.5vw;
-    border: 5px solid white;
+    border: min(5px, 1vw) solid white;
     border-radius: calc(1vh + 1vw);
     padding: 0.5vh 0.5vw;
     z-index: 1;
@@ -10,4 +10,16 @@
     height: 85%;
     width: 85%;
     justify-self: center;
+}
+
+.generic-header {
+    font-size: min(2vh, 1vw);
+}
+
+.generic-short {
+    font-size: min(1.7vh, 0.8vw);
+}
+
+.generic-tech {
+    font-size: min(1.5vh, 0.6vw);
 }

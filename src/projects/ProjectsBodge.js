@@ -78,7 +78,7 @@ const minesweeperCopy = {"projectName": "Minesweeper",
     "long": "Having grown to have a mild obsession with Minesweeper in my first couple years at uni, I wrote up the game from scratch in pyglet, an alternative to pygame which I found was a tonne more fun to work with. By being careful to follow at least the Single Responsibility Principle from SOLID at all times, I made it very easy to expand the game for myself; by using Adapter objects I was able to transform the backend's outputs to simple front-end ones, and then to write some game solvers. I initially attempted to train a deep learning agent, (DeepQ?), to solve the game with tensorflow2, having made it work with a simple game of blackjack. However, I found performance was poor, and eventually stumbled onto a paper which made it abundantly clear that my model would need an incredible amount of training to even be able to solve the simplest boards (think 500k games to get a 5x5 grid working - extremely wasteful compute time). I decided to solve the game algorithmically instead; I found a paper which presented the problem as a simultaneous equations. Using Gaussian Elimination and backtracing I was then able to make an algorithm which can handle all solvable games, and then added a heuristic to allow for the algorithm guessing.",
     "tech": "Python (pyglet/tensorflow2)",
     "date": "09/2022",
-    "imageDir": "projImgs/MinesweeperSC.PNG"
+    "imageDir": "projImgs/minesweeper.gif"
 };
 
 const algoVisualiser = {"projectName": "Pathfinding Algorithm Visualisation",

@@ -9,9 +9,7 @@ function About() {
         "HTML",
         "CSS",
         "JS",
-        "React",
-        "SQL",
-        "Java",
+        "React"
     ]
 
     const listItems = tech.map(element =>
@@ -34,13 +32,12 @@ function About() {
                         I don't hesitate to ask questions, as I'd rather look stupid
                         for 5 minutes than being stupid for the rest of my life.</p>
                     <p>I've been coding since secondary school, predominantly in Python 3.
-                    I find that whenever I need to pick up a different language, it's
-                    not much trouble - ultimately, any app's logic is quite similar
-                    no matter the language, so it's just about learning the basics
-                    of syntax and getting used to some of the language's quirks...
-                    That's a good attitude for writing personal projects, but now
-                    that I've been working away at C++ for quite a few months, I have
-                    to admit that Effective C++ has been immensely helpful so far!
+                    I've found in the past that whenever I wanted to pick up a different
+                    language though for a personal project, it's not been much trouble.
+                    Ultimately any app's logic is gonna be similar regardless of language,
+                    with some implementation details due to language quirks. I have focused
+                    more time into understanding C++ as it is my job to write in it now,
+                    and have found Meyer's Effective C++ to be very useful so far!
                     </p>
                     <p>I've tinkered with...</p>
                     <div className="tech-list">

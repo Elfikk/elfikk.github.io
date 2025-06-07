@@ -86,7 +86,7 @@ const algoVisualiser = {"projectName": "Pathfinding Algorithm Visualisation",
     "long": "It's in nearly everyone's project portfolio, and is so it in mine - a simple visualisation of a pathfinding algorithm. Having experimented before with PyGame for my A Level Computing coursework, I had another stab, making a simple grid-based 2-D pathfinder where the user can input walls on the grid and let the algorithm figure out the optimal path. A small PyQt5 pop-up can be used to change grid parameters at runtime. I implemented a min-heap as part of the project for use by A*, and to have some confidence in what it was chucking out, wrote 35 unit tests.",
     "tech": "Python (pygame/pyqt5/unittest)",
     "date": "06/2022",
-    "imageDir": "projImgs/PathfindingSC.PNG"
+    "imageDir": "projImgs/pathfinding.gif"
 };
 
 const raytracer = {"projectName": "Raytracer",
@@ -102,7 +102,7 @@ const gFieldSim = {"projectName": "Gravitational Sim",
     "long": "Probably the most bog standard physics-y project anyone ever does as a teenager. I found the idea of writing simulations incredibly cool, but didn't really know where to start - not like I had much guidance in college! As someone who found astrophysics cool as a kid though, I looked at Newtonian gravity equations and wrote a time-step based simulation, using Euler's method without knowing the name until several years later. I did start writing some extensions to this having studied magnetic and electric fields to have simulations of charge movement, but never finished it - clearly younger Jarek had better things to do.",
     "tech": "Python (turtle)",
     "date": "06/2019",
-    "imageDir": "projImgs/solarSystem.PNG"
+    "imageDir": "projImgs/gravSim.gif"
 };
 
 const fractalIllustration = {"projectName": "Fractal Illustrations",
@@ -118,7 +118,7 @@ const matrixSolver = {"projectName": "3D Vector Solver",
     "long": "This was the first piece of OOP I ever wrote. I remember really struggling with 3D Vector work at A Level, where one usually had to find the minimum distance between two different lines, or a plane and line. The math textbook I had only had a couple of these questions, and there was a limited number of past questions of the sort as we were working under a new spec. There was a easy enough way to formulate these questions though, and the process could be broken down into a question involving a 3D matrix and vectors between certain points. I wrote Point, Vector and 3D Matrix classes to write out an algorithm which solved this for arbitrary lines, allowing me to practice more - it probably doesn't get nerdier than that, but it was an incredibly useful tool for revision at the time. Little Jarek did not know at the scientific Python stack so rewrote some standard things here, but really it must have done me some good.",
     "tech": "Python",
     "date": "04/2019",
-    "imageDir": "projImgs/VectorQ.png"
+    "imageDir": "projImgs/lines.png"
 };
 
 // allProjs - List of maps describing projects (woah)

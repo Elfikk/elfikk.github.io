@@ -18,8 +18,8 @@ function About() {
         </li>
     );
 
-    const listItems1 = listItems.slice(0, tech.length/2);
-    const listItems2 = listItems.slice(tech.length/2);
+    const listItems1 = listItems.slice(0, Math.ceil(tech.length/2));
+    const listItems2 = listItems.slice(Math.ceil(tech.length/2));
 
     return (
         <section id = "about">

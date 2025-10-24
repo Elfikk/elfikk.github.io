@@ -1,5 +1,12 @@
 // I should also include crappy projects I did as a kid here, because why not. Not everything I have on display needs to be amazing - show some progression!
 
+const causets = {"projectName": "C++ Causets",
+    "short": "Continuation of my MSci Thesis Work",
+    "long": "My master's thesis centred around causal set theory, a quantum gravity theory where spacetime itself is discretised. Most of my 'computational simulation' work was written in Python, and it became a bottleneck for numerical exploration of the dimensions of these sets of points i.e generating the longest path with a networkx graph with 1000 or more points is really slow...I recently rewrote it all in C++ and was able to show numerically that the trends I showed in my thesis continue at more significants numbers of points.",
+    "tech": "C++",
+    "imageDir": "projImgs/siteFrontPage.PNG"
+};
+
 const ballsGame = {"projectName": "Ballz",
     "short": "Recreaction of the mobile game Ballz.",
     "long": "I've had a mild obsession with a mobile game for a while, so decided to recreate it when I was using the LOVE game engine. Lua was a pretty neat language to write in, and has some overlap with work so was a bit of a win-win. Nice to do some collision dynamics as well, though that really didn't take that long.",
@@ -133,6 +140,7 @@ const matrixSolver = {"projectName": "3D Vector Solver",
 // Short - Short description that must fit in a project summary container.
 // Long - Long form description of the project, fits in project showcase.
 const allProjs = [
+    causets,
     ballsGame,
     thisDamnSite,
     f1Powerpoint,

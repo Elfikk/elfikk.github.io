@@ -1,5 +1,12 @@
 // I should also include crappy projects I did as a kid here, because why not. Not everything I have on display needs to be amazing - show some progression!
 
+const ballsGame = {"projectName": "Ballz",
+    "short": "Recreaction of the mobile game Ballz.",
+    "long": "I've had a mild obsession with a mobile game for a while, so decided to recreate it when I was using the LOVE game engine. Lua was a pretty neat language to write in, and has some overlap with work so was a bit of a win-win. Nice to do some collision dynamics as well, though that really didn't take that long.",
+    "tech": "Lua (with LOVE), GLSL",
+    "imageDir": "projImgs/siteFrontPage.PNG"
+};
+
 const thisDamnSite = {"projectName": "Personal Website",
     "short": "Look around...",
     "long": "Staple part of any portfolio. Really I need more projects under my belt, but this was a fun one.",
@@ -126,6 +133,7 @@ const matrixSolver = {"projectName": "3D Vector Solver",
 // Short - Short description that must fit in a project summary container.
 // Long - Long form description of the project, fits in project showcase.
 const allProjs = [
+    ballsGame,
     thisDamnSite,
     f1Powerpoint,
     f1Sim,

@@ -9,7 +9,8 @@ function About() {
         "HTML",
         "CSS",
         "JS",
-        "React"
+        "React",
+        "Lua"
     ]
 
     const listItems = tech.map(element =>

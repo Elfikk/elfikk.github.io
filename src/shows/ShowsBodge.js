@@ -144,6 +144,13 @@ const idea2025 = {"showName": "IDEA 2025",
     "imageDir": "showImgs/idea25.jpg"
 };
 
+const crucible = {"showName": "The Crucible",
+    "short": "Sedos Show run in September 2025.",
+    "role": "Assistant Lighting Designer / Show Operator",
+    "tech": "Ion XE",
+    "date": "09/25",
+    "imageDir": "showImgs/crucibleLarge.jpg"
+};
 
 const allShows = [
     fringe,
@@ -163,7 +170,8 @@ const allShows = [
     bigFish,
     fashion24,
     silfest24,
-    idea2025
+    idea2025,
+    crucible
 ]
 allShows.reverse();
 

@@ -6,7 +6,7 @@ function SiteNavbar() {
         <a href = "#about">About</a>
         <a href = "#projects">Projects</a>
         <a href = "#shows">Shows</a>
-        <a href = "/JCCV11-23.pdf">CV</a>
+        {/* <a href = "/JCCV11-23.pdf">CV</a> */}
     </div>
   );
 }

@@ -2,16 +2,16 @@
 
 const causets = {"projectName": "C++ Causets",
     "short": "Continuation of my MSci Thesis Work",
-    "long": "My master's thesis centred around causal set theory, a quantum gravity theory where spacetime itself is discretised. Most of my 'computational simulation' work was written in Python, and it became a bottleneck for numerical exploration of the dimensions of these sets of points i.e generating the longest path with a networkx graph with 1000 or more points is really slow...I recently rewrote it all in C++ and was able to show numerically that the trends I showed in my thesis continue at more significants numbers of points.",
+    "long": "My master's thesis centred around causal set theory, a quantum gravity theory where spacetime itself is discretised. Most of my 'computational simulation' work was written in Python, and it became a bottleneck for numerical exploration of the dimensions of these sets of points i.e generating the longest path with a networkx graph with 1000 or more points is really slow...I recently rewrote it all in C++ and was able to show numerically that the trends I showed in my thesis continue at more significants numbers of points. I extended beyond and explored a new spacetime and confirmed a conjecture I made in my thesis, whilst spending some more time doing some mathematics I can't believe I still remember.",
     "tech": "C++",
-    "imageDir": "projImgs/siteFrontPage.PNG"
+    "imageDir": "projImgs/deSitterPath.PNG"
 };
 
 const ballsGame = {"projectName": "Ballz",
     "short": "Recreaction of the mobile game Ballz.",
-    "long": "I've had a mild obsession with a mobile game for a while, so decided to recreate it when I was using the LOVE game engine. Lua was a pretty neat language to write in, and has some overlap with work so was a bit of a win-win. Nice to do some collision dynamics as well, though that really didn't take that long.",
+    "long": "I've had a mild obsession with a mobile game for a while, so decided to recreate it when I was using the LOVE game engine. Lua was a pretty neat language to write in, and has some overlap with work so was a bit of a win-win. I dipped into using shaders whilst doing this project, which doesn't look great after being screen recorded and compressed into a GIF (oh well, there's only so much time I'm willing to put into making this website look great - I'd much rather be writing new fun code...) Was nice to do some collision dynamics as well, though that really didn't take that long.",
     "tech": "Lua (with LOVE), GLSL",
-    "imageDir": "projImgs/siteFrontPage.PNG"
+    "imageDir": "projImgs/ballz.gif"
 };
 
 const thisDamnSite = {"projectName": "Personal Website",

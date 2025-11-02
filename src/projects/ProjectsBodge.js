@@ -4,7 +4,7 @@ const causets = {"projectName": "C++ Causets",
     "short": "Continuation of my MSci Thesis Work",
     "long": "My master's thesis centred around causal set theory, a quantum gravity theory where spacetime itself is discretised. Most of my 'computational simulation' work was written in Python, and it became a bottleneck for numerical exploration of the dimensions of these sets of points i.e generating the longest path with a networkx graph with 1000 or more points is really slow...I recently rewrote it all in C++ and was able to show numerically that the trends I showed in my thesis continue at more significants numbers of points. I extended beyond and explored a new spacetime and confirmed a conjecture I made in my thesis, whilst spending some more time doing some mathematics I can't believe I still remember.",
     "tech": "C++",
-    "imageDir": "projImgs/deSitterPath.PNG"
+    "imageDir": "projImgs/deSitterPath.png"
 };
 
 const ballsGame = {"projectName": "Ballz",

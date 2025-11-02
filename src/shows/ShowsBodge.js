@@ -145,7 +145,7 @@ const idea2025 = {"showName": "IDEA 2025",
 };
 
 const crucible = {"showName": "The Crucible",
-    "short": "Sedos Show run in September 2025.",
+    "short": "Sedos Show run in September 2025. Worked under a significantly more experienced LD, who helped me make a scene go from looking good to looking great! I ran the show lighting and sound, dealing with practicals on the day. Was stunned at the quality of the performance.",
     "role": "Assistant Lighting Designer / Show Operator",
     "tech": "Ion XE",
     "date": "09/25",
